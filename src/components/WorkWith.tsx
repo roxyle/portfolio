@@ -5,10 +5,10 @@ import React from 'react'
 
 const WorkWith = () => {
   return (
-    <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>Lavoro con:</h3>
+    <div className='py-4 flex flex-col items-center justify-center'>
+        <span className='subhead-text'>I work with:</span>
 
-        <div className='mt-16 flex flex-wrap gap-12'>
+        <div className='mt-8 flex flex-wrap items-center justify-center gap-2'>
           {skills.map((skill)=> (
             <div className='block-container w-20 h-20'>
               <div className='btn-back rounded-xl'/>

@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
     <Hero/>
-    <section className='max-container'>
+    <section className='flex flex-col py-8'>
       
       <h1 className='head-text flex justify-center'>
         Contact me..
@@ -17,9 +17,9 @@ const Contact = () => {
             <span className="relative text-white">Email:</span>
         </h2>
 
-        <div className='mt-5 flex justify-center gap-3 text-white'>
+        <div className='mt-5 flex justify-center text-white'>
           <p className='py-4 border border-x-transparent border-y-sky-600'> 
-            ylenia.rossi@outlook.com</p>
+            ylenia.rossi@outlook.com </p>
         </div>
       </div>
       </section>
