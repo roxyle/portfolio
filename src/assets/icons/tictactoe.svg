@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="155.53271mm"
+   height="161.61383mm"
+   viewBox="0 0 155.53272 161.61384"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient1301">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1299" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient1301"
+       id="linearGradient1303"
+       x1="45.067165"
+       y1="40.449627"
+       x2="74.25"
+       y2="40.449627"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-27.698169,-57.626865)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       id="rect898"
+       width="3.6940308"
+       height="155.60823"
+       x="73.571213"
+       y="61.331036"
+       ry="0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+       id="rect898-7"
+       width="3.6940308"
+       height="155.60832"
+       x="135.80548"
+       y="61.515736" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       id="rect898-8"
+       width="3.3298161"
+       height="150.22859"
+       x="115.64368"
+       y="-180.08649"
+       transform="rotate(89.759081)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.290521"
+       id="rect898-8-0"
+       width="3.5405729"
+       height="155.88866"
+       x="169.42751"
+       y="-182.99788"
+       transform="matrix(0.00348752,0.99999392,-0.99998715,0.00506964,0,0)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.214059"
+       id="rect1065"
+       width="1.3395981"
+       height="31.004196"
+       x="76.346786"
+       y="107.51456"
+       transform="matrix(1,0,0.67402783,0.73870596,0,0)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.206155"
+       id="rect1065-9"
+       width="1.2319607"
+       height="31.2694"
+       x="218.08585"
+       y="-205.9493"
+       transform="matrix(0.08022879,0.99677648,-0.74535117,0.66667206,0,0)" />
+    <ellipse
+       style="fill:#000000;fill-opacity:0.0217391;stroke:url(#linearGradient1303);stroke-width:1.165;stroke-dasharray:none"
+       id="path1141"
+       cx="107.31157"
+       cy="144.62126"
+       rx="9.4197769"
+       ry="9.0503721" />
+  </g>
+</svg>
