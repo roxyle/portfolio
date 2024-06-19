@@ -2,7 +2,7 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div className='flex flex-col justify-center items-center py-20 '>
+    <div className='flex flex-col justify-center items-center py-10 '>
         <div className='border border-x-transparent border-y-sky-600'>
             <p className='py-2 text-center'>Hello and Welcome! 👋 </p>
             <p className='py-2 text-center'> Click on 'About' to have a look at my background section<br/>
