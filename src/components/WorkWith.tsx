@@ -1,4 +1,4 @@
-import { skills } from '@/constants'
+import { skillsFrameLab, skillsGraph, skillsLang } from '@/constants'
 import Image from 'next/image';
 
 import React from 'react'
@@ -9,7 +9,7 @@ const WorkWith = () => {
         <span className='subhead-text'>I work with:</span>
 
         <div className='mt-8 flex flex-wrap items-center justify-center gap-2'>
-          {skills.map((skill)=> (
+          {skillsLang.map((skill)=> (
             <div className='block-container w-20 h-20'>
               <div className='btn-back rounded-xl'/>
               <div className='btn-front rounded-xl flex justify-center items-center'>
@@ -22,9 +22,43 @@ const WorkWith = () => {
             </div>
           )
           )}
-
         </div>
-      </div>
+
+        <div className='mt-8 flex flex-wrap items-center justify-center gap-2'>
+          {skillsFrameLab.map((skill)=> (
+            <div className='block-container w-20 h-20'>
+              <div className='btn-back rounded-xl'/>
+              <div className='btn-front rounded-xl flex justify-center items-center'>
+                <Image
+                src={skill.imageUrl}
+                alt={skill.name}
+                className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            </div>
+          )
+          )}
+        </div>
+
+        <div className='mt-8 flex flex-wrap items-center justify-center gap-2'>
+          {skillsGraph.map((skill)=> (
+            <div className='block-container w-20 h-20'>
+              <div className='btn-back rounded-xl'/>
+              <div className='btn-front rounded-xl flex justify-center items-center'>
+                <Image
+                src={skill.imageUrl}
+                alt={skill.name}
+                className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            </div>
+          )
+          )}
+        </div>
+
+
+    </div>
+
   )
 }
 
