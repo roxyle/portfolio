@@ -33,25 +33,15 @@ import {
     bootstrap
 } from "../assets/icons";
 
-export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    // {
-    //     imageUrl: git,
-    //     name: "Git",
-    //     type: "Version Control",
-    // },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
+export const skillsLang = [
     {
         imageUrl: html,
         name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
         type: "Frontend",
     },
     {
@@ -59,41 +49,11 @@ export const skills = [
         name: "JavaScript",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: mongodb,
-    //     name: "MongoDB",
-    //     type: "Database",
-    // },
-    // {
-    //     imageUrl: motion,
-    //     name: "Motion",
-    //     type: "Animation",
-    // },
-    // {
-    //     imageUrl: mui,
-    //     name: "Material-UI",
-    //     type: "Frontend",
-    // },
     {
-        imageUrl: nextjs,
-        name: "Next.js",
+        imageUrl: typescript,
+        name: "TypeScript",
         type: "Frontend",
     },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    // {
-    //     imageUrl: redux,
-    //     name: "Redux",
-    //     type: "State Management",
-    // },
     {
         imageUrl: sass,
         name: "Sass",
@@ -105,26 +65,41 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    },
-    {
         imageUrl: java,
         name: "Java",
         type: "Backend",
     },
+];
+
+export const skillsFrameLab = [
+    {
+        imageUrl: nextjs,
+        name: "Next.js",
+        type: "Frontend",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
+    },
+];
+export const skillsGraph = [
     {
         imageUrl: blender,
         name: "Blender",
-        type: "3D Graphic",
+        type: "Graphic",
     },
     {
         imageUrl: procreate,
         name: "Procreate",
         type: "Graphic",
     },
-];
+]
 
 export const experiences = [
     {
