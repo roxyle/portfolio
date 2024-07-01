@@ -33,6 +33,8 @@ import datatables from './datatables.png'
 import isotope from './isotope.png'
 import tictactoe from './tictactoe.svg'
 import bootstrap from './bootstrap.svg'
+import trello from './trello.svg'
+import angular from './angular.svg'
 
 
 
@@ -72,5 +74,7 @@ export {
     datatables,
     isotope,
     tictactoe,
-    bootstrap
+    bootstrap,
+    trello,
+    angular
 }

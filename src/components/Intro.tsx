@@ -2,13 +2,13 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div className='flex flex-col justify-center items-center py-10 '>
+    <div className='flex flex-col justify-center items-center py-5 '>
         <div className='border border-x-transparent border-y-sky-600'>
-            <p className='py-2 text-center'>Hello and Welcome! 👋 </p>
-            <p className='py-2 text-center'> Click on 'About' to have a look at my background section<br/>
-            Want to explore something I've done? Visit the 'Projects' page <br/>
-            If you want to get in touch, click on 'Contact'
-            
+            <h2 className='py-2 text-center'>Hello and Welcome! 👋 </h2>            
+            <p className='py-2 text-center'>I studied Java and MySQL in 2022.<br/> 
+          After a work experience in RPA and Project Managing, <br/>
+          I took the certification as "Multimedial Products Designer" in 2023, <br/>
+          adding to my experience also HTML, CSS and JavaScript.            
             
             </p>  
         </div>

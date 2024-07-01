@@ -19,7 +19,7 @@ export default function Projects() {
         </h1>
 
         <div className='mt-5 flex flex-col gap-3 text-white'>
-          <p className='py-4 border border-x-transparent border-y-sky-600'>Since I keep practicing, this page will always be a work in progress. (Language is in Italian)</p>
+          <p className='py-4 border text-center border-x-transparent border-y-sky-600'>Since I keep practicing, this page will always be a work in progress. (Some projects are in Italian)</p>
         </div>
 
 

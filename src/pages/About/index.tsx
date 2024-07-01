@@ -13,16 +13,16 @@ const About = () => {
     <section className='max-container'>
       
       <h1 className='head-text flex justify-center'>
-        About me..
+        A bit about me..
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-white'>
-        <p className='py-4 border border-x-transparent border-y-sky-600'> 
-          I studied Java and MySQL in 2022.<br/> 
-          After a work experience in RPA and Project Managing, 
-          I took the certification as a 
-          Multimedia Designer in 2023, 
-          adding to my experience also HTML, CSS and JavaScript. </p>
+        <p className='py-4 text-center border border-x-transparent border-y-sky-600'> 
+          
+          When planning a project, I break down the work into steps, conceptual maps and workflows. <br/>
+          I find this "divide and conquer" strategy very useful, 
+          not only for tasks prioritization and development process, <br/>
+          but also for writing functional analysis and technical documentation.</p>
       </div>
 
       <div className='py-8'>

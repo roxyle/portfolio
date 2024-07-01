@@ -30,7 +30,9 @@ import {
     isotope,
     datatables,
     tictactoe,
-    bootstrap
+    bootstrap,
+    trello,
+    angular
 } from "../assets/icons";
 
 export const skillsLang = [
@@ -87,8 +89,14 @@ export const skillsFrameLab = [
         name: "Node.js",
         type: "Backend",
     },
+    {
+        imageUrl: angular,
+        name: "Angular",
+        type: "Frontend",
+    },
+
 ];
-export const skillsGraph = [
+export const otherSkills = [
     {
         imageUrl: blender,
         name: "Blender",
@@ -98,6 +106,11 @@ export const skillsGraph = [
         imageUrl: procreate,
         name: "Procreate",
         type: "Graphic",
+    },
+    {
+        imageUrl: trello,
+        name: "Trello",
+        type: "Organize",
     },
 ]
 
