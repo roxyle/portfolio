@@ -14,6 +14,7 @@ const WorkWith = () => {
               <div className='btn-back rounded-xl'/>
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <Image
+                key={skill.id}
                 src={skill.imageUrl}
                 alt={skill.name}
                 className='w-1/2 h-1/2 object-contain'
@@ -30,6 +31,7 @@ const WorkWith = () => {
               <div className='btn-back rounded-xl'/>
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <Image
+                key={skill.id}
                 src={skill.imageUrl}
                 alt={skill.name}
                 className='w-1/2 h-1/2 object-contain'
@@ -46,6 +48,7 @@ const WorkWith = () => {
               <div className='btn-back rounded-xl'/>
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <Image
+                key={skill.id}
                 src={skill.imageUrl}
                 alt={skill.name}
                 className='w-1/2 h-1/2 object-contain'

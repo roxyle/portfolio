@@ -40,36 +40,43 @@ export const skillsLang = [
         imageUrl: html,
         name: "HTML",
         type: "Frontend",
+        id: "html"
     },
     {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
+        id: "css"
     },
     {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
+        id: "js"
     },
     {
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+        id: "ts"
     },
     {
         imageUrl: sass,
         name: "Sass",
         type: "Frontend",
+        id: "sass"
     },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
+        id: "tw"
     },
     {
         imageUrl: java,
         name: "Java",
         type: "Backend",
+        id: "java"
     },
 ];
 
@@ -78,21 +85,25 @@ export const skillsFrameLab = [
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
+        id: "next"
     },
     {
         imageUrl: react,
         name: "React",
         type: "Frontend",
+        id: "react"
     },
     {
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
+        id: "node"
     },
     {
         imageUrl: angular,
         name: "Angular",
         type: "Frontend",
+        id: "angular"
     },
 
 ];
@@ -101,22 +112,26 @@ export const otherSkills = [
         imageUrl: blender,
         name: "Blender",
         type: "Graphic",
+        id: "blender"
     },
     {
         imageUrl: procreate,
         name: "Procreate",
         type: "Graphic",
+        id: "procreate"
     },
     {
         imageUrl: trello,
         name: "Trello",
         type: "Organize",
+        id: "trello"
     },
 ]
 
 export const experiences = [
     {
         title: "Stage - JavaScript",
+        id: "neting",
         company_name: "Neting SRL",
         icon: neting,
         iconBg: "#f6f6f6",
@@ -130,6 +145,7 @@ export const experiences = [
     },
     {
         title: "RPA Development - NICE",
+        id: "bss",
         company_name: "BSS-ONE",
         icon: bss,
         iconBg: "#f6f6f6",
@@ -142,6 +158,7 @@ export const experiences = [
     },
     {
         title: "Freelance Translator",
+        id: "mkm",
         company_name: "Cardmarket.com",
         icon: cardmarket,
         iconBg: "#f6f6f6",
@@ -153,6 +170,7 @@ export const experiences = [
     },
     {
         title: "Graphic Artist",
+        id: "alex",
         company_name: "Alexander's Company",
         icon: alex,
         iconBg: "#f6f6f6",
@@ -186,6 +204,7 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: bootstrap,
+        id: "bootstrap",
         theme: 'btn-back-pink',
         name: 'Accordion',
         description: 'Bootstrap Exercise: Create a user interface using Bootstrap Accordions',
@@ -193,6 +212,7 @@ export const projects = [
     },
     {
         iconUrl: datatables,
+        id: "datatable",
         theme: 'btn-back-blue',
         name: 'API Table',
         description: 'DataTables Exercise in JS: Table. Create a table that fetches a series of objects via API. Allow the user to search or filter the items',
@@ -200,6 +220,7 @@ export const projects = [
     },    
     {
         iconUrl: isotope,
+        id: "isotope",
         theme: 'btn-back-yellow',
         name: 'Isotope - Selecting Items',
         description: 'Isotope exercise in JS: Numbers. Create a list of numbers that can be rearranged and filtered by the user',
@@ -207,6 +228,7 @@ export const projects = [
     },
     {
         iconUrl: tictactoe,
+        id: "tictactoe",
         theme: 'btn-back-black',
         name: 'Tris',
         description: 'JS exercise: TicTacToe or Tris. Create a fixed game grid where players X and O take turns. Once a cell is chosen by a player, it should no longer be available. When a player gets three in a row, all cells should become unselectable and the game should reset',
