@@ -9,7 +9,7 @@ const Contact = () => {
     <section className='flex flex-col py-8'>
       
       <h1 className='head-text flex justify-center'>
-        Contact me..
+      If I have captured your attention or if you'd like to have a chat, you can contact me here:
       </h1>
 
       <div className='py-8'>
