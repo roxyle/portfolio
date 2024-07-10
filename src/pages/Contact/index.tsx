@@ -6,10 +6,10 @@ const Contact = () => {
   return (
     <>
     <Hero/>
-    <section className='flex flex-col py-8'>
+    <section className='max-container'>
       
       <h1 className='head-text flex justify-center'>
-      Contact
+      Contacts...
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-white'>
