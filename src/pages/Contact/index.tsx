@@ -9,9 +9,15 @@ const Contact = () => {
     <section className='flex flex-col py-8'>
       
       <h1 className='head-text flex justify-center'>
-      If I have captured your attention or if you'd like to have a chat, you can contact me here:
+      Contact
       </h1>
 
+      <div className='mt-5 flex flex-col gap-3 text-white'>
+        <p className='py-4 text-center border border-x-transparent border-y-sky-600'> 
+        If I have captured your attention or if you'd like to have a chat, you can contact me here:</p>
+      </div>
+
+      
       <div className='py-8'>
         <h2 className='head-text flex justify-center'>
             <span className="relative text-white">Email:</span>
