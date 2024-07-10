@@ -24,7 +24,7 @@ const Contact = () => {
         </h2>
 
         <div className='mt-5 flex justify-center text-white'>
-          <p className='py-4 border border-x-transparent border-y-sky-600'> 
+          <p className='border border-x-transparent border-y-sky-600'> 
             ylenia.rossi@outlook.com </p>
         </div>
       </div>
