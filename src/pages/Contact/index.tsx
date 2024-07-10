@@ -18,16 +18,16 @@ const Contact = () => {
       </div>
 
       
-      
-        <h2 className='py-8 head-text flex justify-center'>
-            <span className="relative text-white">Email:</span>
-        </h2>
+        <div className='py-8'>
+          <h2 className='head-text flex justify-center'>
+              <span className="relative text-white">Email:</span>
+          </h2>
 
-        <div className='mt-5 flex justify-center text-white'>
-          <p className='border border-x-transparent border-y-sky-600'> 
-            ylenia.rossi@outlook.com </p>
+          <div className='mt-12 flex justify-center text-white'>
+            <p className='border border-x-transparent border-y-violet-600'> 
+              ylenia.rossi@outlook.com </p>
+          </div>
         </div>
-      
       </section>
       <Footer/>
     </>

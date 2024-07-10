@@ -23,7 +23,7 @@ const Footer = () => {
             </section>
         </div>
 
-        <div className="text-center">
+        <div className="text-center mb-8">
             Remote Worker based in: Bologna (40138) - Italy
             
         </div>
