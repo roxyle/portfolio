@@ -17,7 +17,7 @@ const About = () => {
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-white'>
-        <p className='py-4 text-center border border-x-transparent border-y-sky-600'> 
+        <p className='py-4 text-center border border-x-transparent border-y-blue-600'> 
         <strong>I love creating things: </strong><br/>
         whether it is an object, a drawing, a program, or a recipe,<br/>
         I derive great satisfaction from <strong>studying and understanding</strong> <br/>

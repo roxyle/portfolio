@@ -1,6 +1,8 @@
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import React from 'react'
+import Image from 'next/image';
+
 
 const Contact = () => {
   return (
@@ -13,20 +15,17 @@ const Contact = () => {
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-white'>
-        <p className='py-4 text-center border border-x-transparent border-y-sky-600'> 
+        <p className='py-4 text-center border border-x-transparent border-y-pink-500'> 
         If I have captured your attention or if you'd like to have a chat, you can contact me here:</p>
       </div>
 
       
-        <div className='py-8'>
-          <h2 className='head-text flex justify-center'>
-              <span className="relative text-white">Email:</span>
-          </h2>
+        <div className='py-4 mb-4g'>          
+          <p className='flex justify-center text-white'><strong>ylenia.rossi@outlook.com</strong></p>
+        </div>
 
-          <div className='mt-12 flex justify-center text-white'>
-            <p className='border border-x-transparent border-y-violet-600'> 
-              ylenia.rossi@outlook.com </p>
-          </div>
+        <div className='flex flex-col items-center justify-center'>
+          <Image src='/helpmehelpyou.gif' alt='help me help you' width={300} height={300} />
         </div>
       </section>
       <Footer/>
