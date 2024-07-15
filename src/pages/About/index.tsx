@@ -11,19 +11,14 @@ const About = () => {
     <>
     <Hero/>
     <section className='max-container'>
-      
-      <h1 className='head-text flex justify-center'>
-        A bit about me..
-      </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-white'>
         <p className='py-4 text-center border border-x-transparent border-y-blue-600'> 
-        <strong>I love creating things: </strong><br/>
+        <strong>I love creating things: </strong>
         whether it is an object, a drawing, a program, or a recipe,<br/>
         I derive great satisfaction from <strong>studying and understanding</strong> <br/>
         the <strong>foundational development process</strong> behind every single thing. <br/>
-        Studying Java OOP has allowed me to better <br/>
-        <strong>understand, analyze, and organize</strong> <br/>
+        Studying Java OOP has allowed me to better <strong>understand, analyze, and organize</strong> <br/>
         the various processes of <strong>Robotic Automation</strong> assigned to me <br/>
         during my last experience at Bss-One (2022) for <strong>Engineering.</strong> <br/>
         This includes every step, <strong>from creating workflows to testing the application.</strong><br/>

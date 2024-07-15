@@ -9,10 +9,6 @@ const Contact = () => {
     <>
     <Hero/>
     <section className='max-w-5xl mx-auto sm:p-8 pb-6 px-4'>
-      
-      <h1 className='head-text flex justify-center'>
-      Contacts...
-      </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-white'>
         <p className='py-4 text-center border border-x-transparent border-y-pink-500'> 
@@ -20,7 +16,7 @@ const Contact = () => {
       </div>
 
       
-        <div className='py-4 mb-4g'>          
+        <div className='py-4'>          
           <p className='flex justify-center text-white'><strong>ylenia.rossi@outlook.com</strong></p>
         </div>
 

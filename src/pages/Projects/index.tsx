@@ -14,9 +14,6 @@ export default function Projects() {
    <Hero/>
 
    <section className='max-container'>
-        <h1 className='head-text flex justify-center'>
-          My Projects
-        </h1>
 
         <div className='mt-5 flex flex-col gap-3 text-white'>
           <p className='py-4 border text-center border-x-transparent border-y-violet-600'>Since I keep practicing, this page will always be a work in progress. (Some projects are in Italian)</p>
