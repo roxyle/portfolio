@@ -35,6 +35,7 @@ import tictactoe from './tictactoe.svg'
 import bootstrap from './bootstrap.svg'
 import trello from './trello.svg'
 import angular from './angular.svg'
+import rpa from './rpa.svg'
 
 
 
@@ -76,5 +77,6 @@ export {
     tictactoe,
     bootstrap,
     trello,
-    angular
+    angular,
+    rpa,
 }

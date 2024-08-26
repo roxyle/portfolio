@@ -32,7 +32,8 @@ import {
     tictactoe,
     bootstrap,
     trello,
-    angular
+    angular,
+    rpa
 } from "../assets/icons";
 
 export const skillsLang = [
@@ -151,7 +152,7 @@ export const experiences = [
         iconBg: "#f6f6f6",
         date: "2022",
         points: [
-            "Developed a Login Dashboard and Search Automatism in NICE technology",
+            "Developed a Login and Search Automatism in NICE technology",
             "Created and/or modified manuals and tech analysis for developer's team and clients (CheBanca!)",
             "Supported the Project Manager and Dev Team",
         ],
@@ -234,6 +235,14 @@ export const projects = [
         description: 'JS exercise: TicTacToe or Tris. Create a fixed game grid where players X and O take turns. Once a cell is chosen by a player, it should no longer be available. When a player gets three in a row, all cells should become unselectable and the game should reset',
         link: 'https://www.order42.info/games/tris/',
     },
+    {
+        iconUrl: rpa,
+        id: "rpa",
+        theme: 'btn-back-green',
+        name: 'RPA',
+        description: 'RPA NICE Technology: Create an automation that allows the user (employee) to log in and download filtered data.',
+        link: 'https://www.order42.info/videoplayer/home.html',        
+    }
     // {
     //     iconUrl: pricewise,
     //     theme: 'btn-back-green',
