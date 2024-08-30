@@ -222,7 +222,7 @@ export const projects = [
     {
         iconUrl: datatables,
         id: "datatable",
-        theme: 'btn-back-blue',
+        theme: 'btn-back-red',
         name: 'API Table',
         description: 'DataTables Exercise in JS: Table. Create a table that fetches a series of objects via API. Allow the user to search or filter the items',
         link: 'https://www.order42.info/dataTable/',
