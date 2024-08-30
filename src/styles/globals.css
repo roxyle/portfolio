@@ -127,15 +127,15 @@ body {
 }
 
 .block-container .btn-back-red {
-  background: linear-gradient(#ff4b1f -20%, #ff9068 120%);
+  background: linear-gradient(#c90404 -20%, #fff200 120%);
 }
 
 .block-container .btn-back-green {
-  background: linear-gradient(#adfda2 -20%, #11d3f3 120%);
+  background: linear-gradient(#8bff61 -20%, #ea00ff 120%);
 }
 
 .block-container .btn-back-yellow {
-  background: linear-gradient(#f7971e -20%, #ffd200 120%);
+  background: linear-gradient(#42f71e -20%, #ffd200 120%);
 }
 
 .block-container .btn-back-blue {
