@@ -208,8 +208,8 @@ export const projects = [
         id: "rpa",
         theme: 'btn-back-green',
         name: 'RPA',
-        description: 'RPA NICE Technology: Create an automation that allows the user (employee) to log in and download filtered data.',
-        link: 'https://www.order42.info/videoplayer/home.html',        
+        description: 'RPA NICE Technology: (Contact me to know more) Create an automation that allows the user (employee) to log in and download filtered data.',
+        link: '',        
     },
     {
         iconUrl: bootstrap,
