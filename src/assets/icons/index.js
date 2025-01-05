@@ -36,6 +36,7 @@ import bootstrap from './bootstrap.svg'
 import trello from './trello.svg'
 import angular from './angular.svg'
 import rpa from './rpa.svg'
+import reacttailwind from './react_tailwind.svg'
 
 
 
@@ -79,4 +80,5 @@ export {
     trello,
     angular,
     rpa,
+    reacttailwind,
 }

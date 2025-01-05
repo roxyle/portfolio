@@ -33,7 +33,8 @@ import {
     bootstrap,
     trello,
     angular,
-    rpa
+    rpa,
+    reacttailwind,
 } from "../assets/icons";
 
 export const skillsLang = [
@@ -204,11 +205,19 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: "reacttailwind",
+        id: "reacttailwind",
+        theme: 'btn-back-black',
+        name: 'React+Next with Tailwind',
+        description: "Work Still in Progress: Updating of a physiotherapy clinic's website, to make it more user-friendly and readable on desktop and mobile devices",
+        link: 'https://fisioterapia02.vercel.app/',        
+    },
+    {
         iconUrl: rpa,
         id: "rpa",
         theme: 'btn-back-green',
         name: 'RPA',
-        description: 'RPA NICE Technology: (Contact me to know more) Create an automation that allows the user (employee) to log in and download filtered data.',
+        description: "RPA NICE Technology: (I'm under NDA so there's nothing I can show about this) Create an automation that allows the user (employee) to log in and download filtered data.",
         link: '',        
     },
     {
