@@ -207,7 +207,7 @@ export const projects = [
     {
         iconUrl: reacttailwind,
         id: "reacttailwind",
-        theme: 'btn-back-black',
+        theme: 'btn-back-blue',
         name: 'React+Next with Tailwind',
         description: "Work Still in Progress: Updating of a physiotherapy clinic's website, to make it more user-friendly and readable on desktop and mobile devices",
         link: 'https://fisioterapia02.vercel.app/',        
