@@ -205,7 +205,7 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: "reacttailwind",
+        iconUrl: reacttailwind,
         id: "reacttailwind",
         theme: 'btn-back-black',
         name: 'React+Next with Tailwind',
