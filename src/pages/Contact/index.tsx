@@ -2,7 +2,7 @@ import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import React from 'react'
 import Image from 'next/image';
-
+  
 
 const Contact = () => {
   return (
@@ -21,7 +21,7 @@ const Contact = () => {
         </div>
 
         <div className='flex flex-col items-center justify-center'>
-          <Image src='/helpmehelpyou.gif' alt='help me help you' width={300} height={300} />
+          <Image src='/teamwork.gif' alt='help me help you' width={300} height={300} />
         </div>
       </section>
       <Footer/>
