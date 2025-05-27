@@ -1,4 +1,4 @@
-import { bss, cardmarket, alex, neting } from "../assets/images";
+import { bss, cardmarket, alex, neting, fisio } from "../assets/images";
 import {
     car,
     contact,
@@ -131,6 +131,20 @@ export const otherSkills = [
 ]
 
 export const experiences = [
+        {
+        title: "Web Dev - React Next TypeScript",
+        id: "fisio",
+        company_name: "Fisioterapia Bruno",
+        icon: fisio,
+        iconBg: "#f6f6f6",
+        date: "2024",
+        points: [
+        "Designed and developed a fully responsive website using React, Next.js, and TypeScript",
+        "Collaborated directly with the client to define structure, content, and branding",
+        "Implemented SEO best practices and optimized performance for production",
+        "Deployed the site on Vercel and redirect to the official domain",
+        ],
+    },
     {
         title: "Stage - JavaScript",
         id: "neting",
@@ -146,7 +160,7 @@ export const experiences = [
         ],
     },
     {
-        title: "RPA Development - NICE",
+        title: "RPA Development - NICE Technology",
         id: "bss",
         company_name: "BSS-ONE",
         icon: bss,
@@ -154,7 +168,7 @@ export const experiences = [
         date: "2022",
         points: [
             "Developed a Login and Search Automatism in NICE technology",
-            "Created and/or modified manuals and tech analysis for developer's team and clients (CheBanca!)",
+            "Created and modified manuals and tech analysis for developer's team and clients (CheBanca!)",
             "Supported the Project Manager and Dev Team",
         ],
     },
@@ -210,7 +224,7 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'React+Next with Tailwind',
         description: "Work Still in Progress: Updating of a physiotherapy clinic's website, to make it more user-friendly and readable on desktop and mobile devices",
-        link: 'https://fisioterapia02.vercel.app/',        
+        link: 'https://www.fisioterapistacaserta.it/',        
     },
     {
         iconUrl: rpa,

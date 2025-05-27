@@ -4,6 +4,7 @@ import bss from './bss.png'
 import neting from './neting.png'
 import cardmarket from './cardmarket.png'
 import logo from './logo.svg'
+import fisio from './fisio.png'
 
 export {
     hero,
@@ -11,5 +12,6 @@ export {
     bss,
     neting,
     cardmarket,
-    logo
+    logo, 
+    fisio,
 }
