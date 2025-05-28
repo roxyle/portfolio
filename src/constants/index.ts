@@ -134,7 +134,7 @@ export const experiences = [
         {
         title: "Web Dev - React Next TypeScript",
         id: "fisio",
-        company_name: "Fisioterapia Bruno",
+        company_name: "Studio Fisioterapia Bruno",
         icon: fisio,
         iconBg: "#f6f6f6",
         date: "2024",
