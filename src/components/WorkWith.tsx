@@ -10,7 +10,7 @@ const WorkWith = () => {
 
         <div className='mt-4 flex flex-wrap items-center justify-center gap-2'>
           {skillsLang.map((skill)=> (
-            <div className='block-container w-20 h-20'>
+            <div className='block-container w-20 h-20' title={skill.name}>
               <div className='btn-back rounded-xl'/>
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <Image
@@ -27,7 +27,7 @@ const WorkWith = () => {
 
         <div className='mt-4 flex flex-wrap items-center justify-center gap-2'>
           {skillsFrameLab.map((skill)=> (
-            <div className='block-container w-20 h-20'>
+            <div className='block-container w-20 h-20' title={skill.name}>
               <div className='btn-back rounded-xl'/>
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <Image
@@ -44,7 +44,7 @@ const WorkWith = () => {
 
         <div className='mt-4 flex flex-wrap items-center justify-center gap-2'>
           {otherSkills.map((skill)=> (
-            <div className='block-container w-20 h-20'>
+            <div className='block-container w-20 h-20' title={skill.name}>
               <div className='btn-back rounded-xl'/>
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <Image

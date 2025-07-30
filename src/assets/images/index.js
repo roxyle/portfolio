@@ -6,6 +6,7 @@ import cardmarket from './cardmarket.png'
 import logo from './logo.svg'
 import fisio from './fisio.png'
 
+
 export {
     hero,
     alex,

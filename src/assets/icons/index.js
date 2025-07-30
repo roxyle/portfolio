@@ -11,7 +11,6 @@ import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
 import redux from './redux.svg'
-import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
@@ -37,7 +36,8 @@ import trello from './trello.svg'
 import angular from './angular.svg'
 import rpa from './rpa.svg'
 import reacttailwind from './react_tailwind.svg'
-
+import mulesoft from './mulesoft.svg'
+import dataweave from './dataweave.svg'
 
 
 
@@ -55,7 +55,6 @@ export {
     nodejs,
     react,
     redux,
-    sass,
     tailwindcss,
     typescript,
     linkedin,
@@ -81,4 +80,6 @@ export {
     angular,
     rpa,
     reacttailwind,
+    mulesoft,
+    dataweave
 }

@@ -1,6 +1,5 @@
 import { bss, cardmarket, alex, neting, fisio } from "../assets/images";
 import {
-    car,
     contact,
     css,
     estate,
@@ -10,15 +9,12 @@ import {
     html,
     javascript,
     linkedin,
-    mongodb,
     motion,
     mui,
     nextjs,
-    nodejs,
     pricewise,
     react,
     redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
@@ -35,6 +31,8 @@ import {
     angular,
     rpa,
     reacttailwind,
+    mulesoft,
+    dataweave,
 } from "../assets/icons";
 
 export const skillsLang = [
@@ -63,12 +61,6 @@ export const skillsLang = [
         id: "ts"
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-        id: "sass"
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -80,6 +72,12 @@ export const skillsLang = [
         type: "Backend",
         id: "java"
     },
+    {
+        imageUrl: dataweave,
+        name: "DataWeave",
+        type: "Backend",
+        id: "dataWeave"
+    }
 ];
 
 export const skillsFrameLab = [
@@ -96,10 +94,10 @@ export const skillsFrameLab = [
         id: "react"
     },
     {
-        imageUrl: nodejs,
-        name: "Node.js",
+        imageUrl: mulesoft,
+        name: "MuleSoft",
         type: "Backend",
-        id: "node"
+        id: "mulesoft"
     },
     {
         imageUrl: angular,
