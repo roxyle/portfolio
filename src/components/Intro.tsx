@@ -2,13 +2,18 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div className='mt-5 flex flex-col justify-center items-center py-5 '>
-        <div className='py-4 border border-x-transparent border-y-sky-600'>
-            <h2 className='py-2 text-center'>Hello and Welcome! 👋 </h2>            
-            <p className='py-2 text-center'>I studied Java and MySQL in 2022.<br/> 
-          After a work experience in RPA and Project Managing, <br/>
-          I took the certification as "Multimedial Products Designer" in 2023, <br/>
-          adding to my experience also HTML, CSS and JavaScript.            
+    <div className='mt-5 flex flex-col items-center px-4 md:px-8 '>
+        <div className='max-w-3xl border border-x-transparent border-y-sky-600 p-6'>
+            <h2 className='text-xl font-semibold mb-4 text-center'>Hello and Welcome! 👋 </h2>            
+            <p className='text-left leading-relaxed text-base'>I studied Java and MySQL in 2022. 
+          After gaining work experience in RPA and Project Management, 
+          I obtained the "Multimedia Products Designer" certification in 2023, 
+          further expanding my skills in HTML, CSS, and JavaScript.
+          In 2025, I completed a WordPress development course and attended the
+          MuleSoft Academy, acquiring expertise in API-led connectivity using the Anypoint Platform,
+          including API Manager and Anypoint Studio.
+          I also gained practical knowledge in DataWeave (JSON, XML, CSV transformations),
+          integration testing with mUnit, and deployment on CloudHub and on-premise environments.
             
             </p>  
         </div>

@@ -5,7 +5,7 @@ import React from 'react'
 
 const WorkWith = () => {
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex flex-col items-center justify-center pt-5'>
         <span className='subhead-text'>I work with:</span>
 
         <div className='mt-4 flex flex-wrap items-center justify-center gap-2'>
