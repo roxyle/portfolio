@@ -12,21 +12,24 @@ const About = () => {
     <Hero/>
     <section className='max-container'>
 
-      <div className='mt-5 flex flex-col gap-3 text-white'>
-        <p className='py-4 text-center border border-x-transparent border-y-blue-600'> 
-        <strong>I love creating things: </strong>
-        whether it is an object, a drawing, a program, or a recipe,<br/>
-        I derive great satisfaction from <strong>studying and understanding</strong> <br/>
-        the <strong>foundational development process</strong> behind every single thing. <br/>
-        Studying Java OOP has allowed me to better <strong>understand, analyze, and organize</strong> <br/>
-        the various processes of <strong>Robotic Automation</strong> assigned to me <br/>
-        during my last experience at Bss-One (2022) for <strong>Engineering.</strong> <br/>
-        This includes every step, <strong>from creating workflows to testing the application.</strong><br/>
-          When <strong>planning</strong> a project, I break down the work into <strong>steps, conceptual maps and workflows.</strong> <br/>
-          I find this "divide and conquer" strategy very effective,<br/> 
-          not only for <strong>tasks prioritization and development process</strong>, <br/>
-          but also for <strong>writing functional analysis and technical documentation.</strong></p>
-      </div>
+<div className='flex flex-col items-center px-4 md:px-8 '>
+        <div className='max-w-3xl border border-x-transparent border-y-sky-600 p-5'>
+            <h2 className='text-xl font-semibold mb-4 text-center'>I love creating things: </h2>
+            <p className='text-left leading-relaxed text-base'>
+              Whether it is an object, a drawing, a program, or a recipe,
+              I derive great satisfaction from studying and understanding
+              the foundational development process behind every single thing. 
+              Studying Java OOP has allowed me to better understand, analyze, and organize
+              the various processes of <strong>Robotic Automation</strong> assigned to me 
+              during my last experience at Bss-One (2022) for <strong>Engineering. </strong>
+              This includes every step, from <strong>creating workflows</strong> to <strong>testing the application. </strong>
+              When <strong>planning</strong> a project, I break down the work into steps, conceptual maps and workflows.
+              I find this "divide and conquer" strategy very effective,
+              not only for <strong>tasks prioritization and development process</strong>, 
+              but also for <strong>writing functional analysis and technical documentation.</strong>
+            </p>  
+        </div>
+    </div>
 
       <div className='py-8'>
         <h2 className='head-text flex justify-center'>
