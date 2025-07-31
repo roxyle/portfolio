@@ -11,6 +11,10 @@ export default function Document() {
       Fullstack Developer, Frontend, Backend, API Integration, REST, SOAP, 
       Integration Specialist, Web Development, Digital Transformation, 
       Anypoint Platform, JSON, XML, CSV, Project Management, Multimedia Designer" />
+      <meta name="description" content="Fullstack Developer with experience in 
+      frontend/backend development, API-led connectivity using MuleSoft (REST/SOAP), 
+      and technologies including DataWeave, React, Java, MySQL, NICE RPA... and WordPress." />
+      <meta name="title" content="Ylenia Rossi Fullstack Developer & API Integration Specialist."/>
       <body>
         <Main />
         <NextScript />
