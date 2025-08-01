@@ -10,7 +10,7 @@ const Contact = () => {
     <Hero/>
     <section className='max-w-5xl mx-auto sm:p-8 pb-6 px-4'>
 
-      <div className='mt-5 flex flex-col gap-3 text-white'>
+      <div className='flex flex-col gap-3 text-white'>
         <p className='py-4 text-center border border-x-transparent border-y-pink-500'> 
         If I have captured your attention or if you'd like to have a chat, you can contact me here:</p>
       </div>
