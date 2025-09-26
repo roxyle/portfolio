@@ -10,10 +10,9 @@ const About = () => {
   return (
     <>
     <Hero/>
-    <section className='max-container'>
 
 <div className='flex flex-col items-center px-4 md:px-8 '>
-        <div className='max-w-3xl border border-x-transparent border-y-sky-600 p-5'>
+        <div className='max-w-3xl border border-x-transparent border-y-green-300 p-5'>
             <h2 className='text-xl font-semibold mb-4 text-center'>I love creating things: </h2>
             <p className='text-left leading-relaxed text-base'>
               Whether it is an object, a drawing, a program, or a recipe,
@@ -83,7 +82,7 @@ const About = () => {
           </VerticalTimeline>
         </div>
       </div>
-    </section>
+    
     <Footer/>
     </>
   )

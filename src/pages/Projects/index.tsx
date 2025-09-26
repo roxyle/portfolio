@@ -13,15 +13,19 @@ export default function Projects() {
   return (<>
    <Hero/>
 
-   <section className='max-container'>
+   
 
-        <div className='flex flex-col gap-3 text-white'>
-          <p className='py-4 border text-center border-x-transparent border-y-violet-600'>
-            Since I keep practicing, this page will always be a work in progress. Some projects are in Italian (well, most of them)</p>
+      <div className='flex flex-col items-center px-4 md:px-8 '>
+        <div className='max-w-3xl border border-x-transparent border-y-violet-600 p-5'>
+          <p className='py-4 text-left leading-relaxed text-base'>
+            This page hosts a variety of my projects, showcasing hands-on experience in web development and programming. 
+            Most of them are simple experiments or exercises, reflecting my ongoing practice and curiosity in learning new technologies, such as JS, TS, HTML, CSS, and database interactions. 
+            By exploring different tools and frameworks, I aim to strengthen my problem-solving skills and apply theoretical knowledge to real-world scenarios. 
+            This collection is a snapshot of my continuous growth, and it evolves as I take on new challenges and expand my technical expertise.</p>
         </div>
+      </div>
 
-
-      <div className='flex flex-wrap justify-center items-center my-20 gap-16'>
+      <div className='flex flex-wrap justify-center items-center my-20 gap-8 px-5'>
         {projects.map((project)=> (
           <div className='lg:w-[400px] w-full flex flex-col flex-wrap min-h-[300px]' key={project.name}>
             <div className='block-container w-12 h-12'>
@@ -66,7 +70,7 @@ export default function Projects() {
 
 
       
-    </section>
+    
     
 
 

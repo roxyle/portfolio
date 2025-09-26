@@ -8,10 +8,9 @@ const Contact = () => {
   return (
     <>
     <Hero/>
-    <section className='max-w-5xl mx-auto sm:p-8 pb-6 px-4'>
-
-      <div className='flex flex-col gap-3 text-white'>
-        <p className='py-4 text-center border border-x-transparent border-y-pink-500'> 
+    <div className='flex flex-col items-center px-4 md:px-8 '>
+        <div className='max-w-3xl border border-x-transparent border-y-pink-500 p-5'>
+        <p className='py-4 text-center'> 
         If I have captured your attention or if you'd like to have a chat, you can contact me here:</p>
       </div>
 
@@ -23,7 +22,7 @@ const Contact = () => {
         <div className='flex flex-col items-center justify-center'>
           <Image src='/teamwork.gif' alt='help me help you' width={300} height={300} />
         </div>
-      </section>
+      </div>
       <Footer/>
     </>
   )
