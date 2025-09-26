@@ -131,7 +131,7 @@ body {
 }
 
 .block-container .btn-back-green {
-  background: linear-gradient(#8bff61 -20%, #ea00ff 120%);
+  background: linear-gradient(#8bff61 -20%, #00bfff 120%);
 }
 
 .block-container .btn-back-yellow {
@@ -148,6 +148,10 @@ body {
 
 .block-container .btn-back-pink {
   background: linear-gradient(#e81cff -20%, #40c9ff 120%);
+}
+
+.block-container .btn-back-purple {
+  background: linear-gradient(#790ada -20%, #aafbfa 120%);
 }
 
 .block-container .btn-back-black {
