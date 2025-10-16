@@ -244,7 +244,7 @@ export const projects = [
     {
         iconUrl: rpa,
         id: "rpa",
-        theme: 'btn-back-purple',
+        theme: 'btn-back-red',
         name: 'RPA',
         description: "RPA NICE Technology: (I'm under NDA so there's nothing I can show about this) Developed automation for login, workflow navigation, multi-criteria data filtering, and export to structured files.",
         link: '',        
@@ -260,7 +260,7 @@ export const projects = [
     {
         iconUrl: datatables,
         id: "datatable",
-        theme: 'btn-back-red',
+        theme: 'btn-back-purple',
         name: 'API Table',
         description: 'DataTables Exercise in JS: Interactive DataTables.js project with API integration: fetches objects from an API, supports advanced multi-filtering, search, sorting, and pagination for efficient data exploration.',
         link: 'https://www.order42.info/dataTable/',
