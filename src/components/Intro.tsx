@@ -5,7 +5,7 @@ const Intro = () => {
     
     <div className='flex flex-col items-center px-4 md:px-8 '>
         <div className='max-w-3xl border border-x-transparent border-y-sky-600 p-5'>
-            <h2 className='text-xl font-semibold mb-4 text-center'>Hello and Welcome! 👋 </h2>
+            <h2 className='text-xl font-semibold mb-4 text-center'>Hello and Welcome! 👋</h2>
             <p className='text-left leading-relaxed text-base pb-6'>I studied <strong>Java</strong> and <strong>MySQL</strong> in 2022.
               After gaining work experience in <strong>RPA</strong> and <strong>Project Management</strong>,
               I obtained the "Multimedia Products Designer" (Frontend) certification in 2023,

@@ -234,6 +234,14 @@ export const projects = [
         link: 'https://crypto-dash-wine-seven.vercel.app/',
     },
     {
+        iconUrl: mulesoft,
+        id: "mulesoft",
+        theme: 'btn-back-yellow',
+        name: 'Payment Orchestration',
+        description: "Payment Processing System built with MuleSoft, implementing Compensation Patterns and Idempotency Handling for distributed transactions.",
+        link: 'https://github.com/roxyle/mulesoft-payment-orchestration'
+    },
+    {
         iconUrl: rpa,
         id: "rpa",
         theme: 'btn-back-purple',
