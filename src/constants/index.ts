@@ -33,6 +33,7 @@ import {
     reacttailwind,
     mulesoft,
     dataweave,
+    sqlicon
 } from "../assets/icons";
 
 export const skillsLang = [
@@ -71,6 +72,12 @@ export const skillsLang = [
         name: "Java",
         type: "Backend",
         id: "java"
+    },
+    {
+        imageUrl: sqlicon,
+        name: "SQL",
+        type: "Backend",
+        id: "SQL"
     },
     {
         imageUrl: dataweave,
@@ -225,13 +232,13 @@ export const projects = [
         description: "Professional website built with React and Next.js featuring responsive design, optimized user experience, and ongoing client maintenance.",
         link: 'https://www.fisioterapistacaserta.it/',
     },
-    {
-        iconUrl: reacttailwind,
-        id: "reacttailwind", 
-        theme: 'btn-back-pink',
-        name: 'Crypto Market Dashboard',
-        description: "Interactive cryptocurrency dashboard built with React, Next.js, and Recharts. Features real-time API integration, responsive charts, and CSV export functionality. Developed through pair programming approach.",
-        link: 'https://crypto-dash-wine-seven.vercel.app/',
+        {
+        iconUrl: sqlicon,
+        id: "sql", 
+        theme: 'btn-back-green',
+        name: 'Query SQL',
+        description: "This repository contains two data-analysis projects created to demonstrate my skills in SQL and relational databases.",
+        link: 'https://github.com/roxyle/SQL',
     },
     {
         iconUrl: mulesoft,
@@ -241,12 +248,20 @@ export const projects = [
         description: "Payment Processing System built with MuleSoft, implementing Compensation Patterns and Idempotency Handling for distributed transactions.",
         link: 'https://github.com/roxyle/mulesoft-payment-orchestration'
     },
+        {
+        iconUrl: reacttailwind,
+        id: "reacttailwind", 
+        theme: 'btn-back-pink',
+        name: 'Crypto Market Dashboard',
+        description: "Interactive cryptocurrency dashboard built with React, Next.js, and Recharts. Features real-time API integration, responsive charts, and CSV export functionality. Developed through pair programming approach.",
+        link: 'https://crypto-dash-wine-seven.vercel.app/',
+    },
     {
         iconUrl: rpa,
         id: "rpa",
         theme: 'btn-back-red',
         name: 'RPA',
-        description: "RPA NICE Technology: (I'm under NDA so there's nothing I can show about this) Developed automation for login, workflow navigation, multi-criteria data filtering, and export to structured files.",
+        description: "RPA NICE Technology: Developed automation for bank employee to login, navigate, do some multi-criteria data filtering, and export to structured files. (I'm working on a NDA-safe side project to show what I can do).",
         link: '',        
     },
     {
@@ -273,14 +288,14 @@ export const projects = [
         description: 'Isotope exercise in JS: Interactive grid layout using Isotope.js: supports dynamic filtering, sorting, and animations to present numeric items in a responsive, visually engaging way with smooth transitions.',
         link: 'https://www.order42.info/isotope/numeri/',
     },
-    {
-        iconUrl: tictactoe,
-        id: "tictactoe",
-        theme: 'btn-back-black',
-        name: 'Tris',
-        description: 'JS exercise: TicTacToe or Tris. Create a fixed game grid where players X and O take turns. Once a cell is chosen by a player, it should no longer be available. When a player gets three in a row, all cells should become unselectable and the game should reset',
-        link: 'https://www.order42.info/games/tris/',
-    },
+    // {
+    //     iconUrl: tictactoe,
+    //     id: "tictactoe",
+    //     theme: 'btn-back-black',
+    //     name: 'Tris',
+    //     description: 'JS exercise: TicTacToe or Tris. Create a fixed game grid where players X and O take turns. Once a cell is chosen by a player, it should no longer be available. When a player gets three in a row, all cells should become unselectable and the game should reset',
+    //     link: 'https://www.order42.info/games/tris/',
+    // },
 
     // {
     //     iconUrl: pricewise,

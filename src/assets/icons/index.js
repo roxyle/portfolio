@@ -38,6 +38,7 @@ import rpa from './rpa.svg'
 import reacttailwind from './react_tailwind.svg'
 import mulesoft from './mulesoft.svg'
 import dataweave from './dataweave.svg'
+import sqlicon from './sql.png'
 
 
 
@@ -81,5 +82,6 @@ export {
     rpa,
     reacttailwind,
     mulesoft,
-    dataweave
+    dataweave,
+    sqlicon
 }
