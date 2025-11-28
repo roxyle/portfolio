@@ -33,7 +33,8 @@ import {
     reacttailwind,
     mulesoft,
     dataweave,
-    sqlicon
+    sqlicon,
+    sqllang
 } from "../assets/icons";
 
 export const skillsLang = [
@@ -74,7 +75,7 @@ export const skillsLang = [
         id: "java"
     },
     {
-        imageUrl: sqlicon,
+        imageUrl: sqllang,
         name: "SQL",
         type: "Backend",
         id: "SQL"

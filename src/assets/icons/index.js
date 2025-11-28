@@ -37,8 +37,9 @@ import angular from './angular.svg'
 import rpa from './rpa.svg'
 import reacttailwind from './react_tailwind.svg'
 import mulesoft from './mulesoft.svg'
-import dataweave from './dataweave.svg'
+import dataweave from './dataweave.png'
 import sqlicon from './sql.png'
+import sqllang from './sqllang.png'
 
 
 
@@ -83,5 +84,6 @@ export {
     reacttailwind,
     mulesoft,
     dataweave,
-    sqlicon
+    sqlicon,
+    sqllang
 }

@@ -5,14 +5,14 @@ import React from 'react'
 
 const WorkWith = () => {
   return (
-    <div className='flex flex-col items-center justify-center pt-5'>
+    <div className='flex flex-col items-center justify-center pt-5 gap-2'>
         <span className='subhead-text'>I work with:</span>
 
-        <div className='mt-4 flex flex-wrap items-center justify-center gap-2'>
+        <div className='flex flex-wrap items-center justify-center gap-2'>
           {skillsLang.map((skill)=> (
-            <div className='block-container w-20 h-20' title={skill.name}>
-              <div className='btn-back rounded-xl'/>
-              <div className='btn-front rounded-xl flex justify-center items-center'>
+            <div key={skill.id} className='block-container w-20 h-20' title={skill.name}>
+              <div key={skill.id} className='btn-back rounded-xl'/>
+              <div key={skill.id} className='btn-front rounded-xl flex justify-center items-center'>
                 <Image
                 key={skill.id}
                 src={skill.imageUrl}
@@ -25,11 +25,11 @@ const WorkWith = () => {
           )}
         </div>
 
-        <div className='mt-4 flex flex-wrap items-center justify-center gap-2'>
+        <div className='flex flex-wrap items-center justify-center gap-2'>
           {skillsFrameLab.map((skill)=> (
-            <div className='block-container w-20 h-20' title={skill.name}>
-              <div className='btn-back rounded-xl'/>
-              <div className='btn-front rounded-xl flex justify-center items-center'>
+            <div key={skill.id} className='block-container w-20 h-20' title={skill.name}>
+              <div key={skill.id} className='btn-back rounded-xl'/>
+              <div key={skill.id} className='btn-front rounded-xl flex justify-center items-center'>
                 <Image
                 key={skill.id}
                 src={skill.imageUrl}
@@ -42,11 +42,11 @@ const WorkWith = () => {
           )}
         </div>
 
-        <div className='mt-4 flex flex-wrap items-center justify-center gap-2'>
+        <div className='flex flex-wrap items-center justify-center gap-2'>
           {otherSkills.map((skill)=> (
-            <div className='block-container w-20 h-20' title={skill.name}>
-              <div className='btn-back rounded-xl'/>
-              <div className='btn-front rounded-xl flex justify-center items-center'>
+            <div key={skill.id} className='block-container w-20 h-20' title={skill.name}>
+              <div key={skill.id} className='btn-back rounded-xl'/>
+              <div key={skill.id}className='btn-front rounded-xl flex justify-center items-center'>
                 <Image
                 key={skill.id}
                 src={skill.imageUrl}
