@@ -22,6 +22,7 @@
 } */
 
 body {
+  /* min-height: 100%; */
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -30,6 +31,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+html, body {
+  overflow-x: hidden !important;
+}
+
 
 @layer utilities {
   .text-balance {

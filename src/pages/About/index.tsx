@@ -35,7 +35,7 @@ const About = () => {
             <span className="relative text-white">Work Experience:</span>
         </h2>
 
-        <div className='mt-12 flex'>
+        <div className='mt-12 flex prevent-anchor'>
           <VerticalTimeline>
             {experiences.map((experience)=> (
                 <VerticalTimelineElement
