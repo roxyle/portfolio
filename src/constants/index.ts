@@ -36,8 +36,9 @@ import {
     sqlicon,
     sqllang
 } from "../assets/icons";
+import { Skill } from "@/types";
 
-export const skillsLang = [
+export const skillsLang: Skill[] = [
     {
         imageUrl: html,
         name: "HTML",
@@ -88,7 +89,7 @@ export const skillsLang = [
     }
 ];
 
-export const skillsFrameLab = [
+export const skillsFrameLab: Skill[] = [
     {
         imageUrl: nextjs,
         name: "Next.js",
@@ -115,7 +116,7 @@ export const skillsFrameLab = [
     },
 
 ];
-export const otherSkills = [
+export const otherSkills: Skill[] = [
     {
         imageUrl: blender,
         name: "Blender",

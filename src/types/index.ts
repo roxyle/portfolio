@@ -8,3 +8,11 @@ export type Project = {
     }
 }
 
+export interface Skill {
+  id: string;
+  name: string;
+  imageUrl: string;
+  type: string;
+}
+
+
