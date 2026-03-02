@@ -251,6 +251,14 @@ export const projects = [
         link: 'https://github.com/roxyle/mulesoft-payment-orchestration'
     },
         {
+        iconUrl: mulesoft,
+        id: "mulesoft-ui",
+        theme: 'btn-back-yellow',
+        name: 'Payment Orchestration - UI',
+        description: "UI simulation for the Payment Processing System built with MuleSoft, implementing Compensation Patterns and Idempotency Handling for distributed transactions.",
+        link: 'https://mulesoft-payment-ui-demo.vercel.app/'
+    },
+        {
         iconUrl: reacttailwind,
         id: "reacttailwind", 
         theme: 'btn-back-pink',
@@ -282,14 +290,14 @@ export const projects = [
         description: 'DataTables Exercise in JS: Interactive DataTables.js project with API integration: fetches objects from an API, supports advanced multi-filtering, search, sorting, and pagination for efficient data exploration.',
         link: 'https://www.order42.info/dataTable/',
     },    
-    {
-        iconUrl: isotope,
-        id: "isotope",
-        theme: 'btn-back-yellow',
-        name: 'Isotope - Selecting Items',
-        description: 'Isotope exercise in JS: Interactive grid layout using Isotope.js: supports dynamic filtering, sorting, and animations to present numeric items in a responsive, visually engaging way with smooth transitions.',
-        link: 'https://www.order42.info/isotope/numeri/',
-    },
+    // {
+    //     iconUrl: isotope,
+    //     id: "isotope",
+    //     theme: 'btn-back-yellow',
+    //     name: 'Isotope - Selecting Items',
+    //     description: 'Isotope exercise in JS: Interactive grid layout using Isotope.js: supports dynamic filtering, sorting, and animations to present numeric items in a responsive, visually engaging way with smooth transitions.',
+    //     link: 'https://www.order42.info/isotope/numeri/',
+    // },
     // {
     //     iconUrl: tictactoe,
     //     id: "tictactoe",
