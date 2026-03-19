@@ -40,6 +40,7 @@ import mulesoft from './mulesoft.svg'
 import dataweave from './dataweave.png'
 import sqlicon from './sql.png'
 import sqllang from './sqllang.png'
+import phone from './phone.svg'
 
 
 
@@ -85,5 +86,6 @@ export {
     mulesoft,
     dataweave,
     sqlicon,
-    sqllang
+    sqllang,
+    phone
 }

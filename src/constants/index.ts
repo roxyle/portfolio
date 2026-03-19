@@ -34,7 +34,8 @@ import {
     mulesoft,
     dataweave,
     sqlicon,
-    sqllang
+    sqllang,
+    phone
 } from "../assets/icons";
 import { Skill } from "@/types";
 
@@ -274,14 +275,14 @@ export const projects = [
         description: "RPA NICE Technology: Developed automation for bank employee to login, navigate, do some multi-criteria data filtering, and export to structured files. (I'm working on a NDA-safe side project to show what I can do).",
         link: '',        
     },
-    {
-        iconUrl: bootstrap,
-        id: "bootstrap",
-        theme: 'btn-back-green',
-        name: 'Accordion',
-        description: 'Bootstrap Exercise: Interactive FAQ component built with Bootstrap Accordions, featuring smooth transitions, responsive design, and clean layout to deliver a user-friendly, expandable interface.',
-        link: 'https://www.order42.info/accordion/',
-    },
+    // {
+    //     iconUrl: bootstrap,
+    //     id: "bootstrap",
+    //     theme: 'btn-back-green',
+    //     name: 'Accordion',
+    //     description: 'Bootstrap Exercise: Interactive FAQ component built with Bootstrap Accordions, featuring smooth transitions, responsive design, and clean layout to deliver a user-friendly, expandable interface.',
+    //     link: 'https://www.order42.info/accordion/',
+    // },
     {
         iconUrl: datatables,
         id: "datatable",
@@ -289,7 +290,7 @@ export const projects = [
         name: 'API Table',
         description: 'DataTables Exercise in JS: Interactive DataTables.js project with API integration: fetches objects from an API, supports advanced multi-filtering, search, sorting, and pagination for efficient data exploration.',
         link: 'https://www.order42.info/dataTable/',
-    },    
+    }, 
     // {
     //     iconUrl: isotope,
     //     id: "isotope",
@@ -313,5 +314,12 @@ export const projects = [
     //     name: 'Project Work - caricamento in corso (il link non funziona ancora)',
     //     description: 'Project Work per il corso Progettista Multimediale con l\'obiettivo di creare una Landing Page dinamica che abbia: una intestazione larga quanto il viewport; un menu di navigazione tra le pagine; un form di contatto; una sezione prodotti recuperati dall\'endpoint remoto dummyjson.com',
     //     link: '',
-    // }
+    // },
+    {
+        iconUrl: phone,
+        theme: 'btn-back-green',
+        name: 'Call Simulator',
+        description: 'Personal Project (for fun) - A mobile-first web app that simulates an ongoing phone call. Built with Next.js 15 App Router and TypeScript, it features a call screen with a randomized timer, a fake home screen with customizable wallpapers, and persistent settings via localStorage. Interface and labels are in Italian.',
+        link: 'https://call-simulator.vercel.app/'
+    }
 ];
