@@ -284,6 +284,13 @@ export const projects = [
     //     link: 'https://www.order42.info/accordion/',
     // },
     {
+        iconUrl: phone,
+        theme: 'btn-back-green',
+        name: 'Call Simulator',
+        description: 'Personal Project (for fun) - A mobile-first web app that simulates an ongoing phone call. Built with Next.js 15 App Router and TypeScript, it features a call screen with a randomized timer, a fake home screen with customizable wallpapers, and persistent settings via localStorage. Interface and labels are in Italian.',
+        link: 'https://call-simulator.vercel.app/'
+    },
+    {
         iconUrl: datatables,
         id: "datatable",
         theme: 'btn-back-purple',
@@ -315,11 +322,4 @@ export const projects = [
     //     description: 'Project Work per il corso Progettista Multimediale con l\'obiettivo di creare una Landing Page dinamica che abbia: una intestazione larga quanto il viewport; un menu di navigazione tra le pagine; un form di contatto; una sezione prodotti recuperati dall\'endpoint remoto dummyjson.com',
     //     link: '',
     // },
-    {
-        iconUrl: phone,
-        theme: 'btn-back-green',
-        name: 'Call Simulator',
-        description: 'Personal Project (for fun) - A mobile-first web app that simulates an ongoing phone call. Built with Next.js 15 App Router and TypeScript, it features a call screen with a randomized timer, a fake home screen with customizable wallpapers, and persistent settings via localStorage. Interface and labels are in Italian.',
-        link: 'https://call-simulator.vercel.app/'
-    }
 ];
