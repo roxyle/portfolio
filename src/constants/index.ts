@@ -290,14 +290,14 @@ export const projects = [
         description: 'Personal Project (for fun) - A mobile-first web app that simulates an ongoing phone call. Built with Next.js 15 App Router and TypeScript, it features a call screen with a randomized timer, a fake home screen with customizable wallpapers, and persistent settings via localStorage. Interface and labels are in Italian.',
         link: 'https://call-simulator.vercel.app/'
     },
-    {
-        iconUrl: datatables,
-        id: "datatable",
-        theme: 'btn-back-purple',
-        name: 'API Table',
-        description: 'DataTables Exercise in JS: Interactive DataTables.js project with API integration: fetches objects from an API, supports advanced multi-filtering, search, sorting, and pagination for efficient data exploration.',
-        link: 'https://www.order42.info/dataTable/',
-    }, 
+    // {
+    //     iconUrl: datatables,
+    //     id: "datatable",
+    //     theme: 'btn-back-purple',
+    //     name: 'API Table',
+    //     description: 'DataTables Exercise in JS: Interactive DataTables.js project with API integration: fetches objects from an API, supports advanced multi-filtering, search, sorting, and pagination for efficient data exploration.',
+    //     link: 'https://www.order42.info/dataTable/',
+    // }, 
     // {
     //     iconUrl: isotope,
     //     id: "isotope",
