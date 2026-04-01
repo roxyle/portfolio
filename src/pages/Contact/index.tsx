@@ -25,7 +25,7 @@ const Contact = () => {
       </div>
 
         <div className='flex flex-col items-center justify-center pt-6'>
-          <Image src='/teamwork.gif' alt='help me help you' width={300} height={300} />
+          <Image src='/ted-lasso.gif' alt='help me help you' width={300} height={300} />
         </div>
       </div>
       <Footer/>

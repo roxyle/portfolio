@@ -145,7 +145,7 @@ export const experiences = [
         company_name: "Studio Fisioterapia Bruno",
         icon: fisio,
         iconBg: "#f6f6f6",
-        date: "2024 - 2025",
+        date: "2024 - 2026",
         points: [
         "Designed and developed a fully responsive website using React, Next.js, and TypeScript",
         "Collaborated directly with the client to define structure, content, and branding",
