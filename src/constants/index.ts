@@ -235,27 +235,11 @@ export const projects = [
         description: "Professional website built with React and Next.js featuring responsive design, optimized user experience, and ongoing client maintenance.",
         link: 'https://www.fisioterapistacaserta.it/',
     },
-        {
-        iconUrl: sqlicon,
-        id: "sql", 
-        theme: 'btn-back-green',
-        name: 'Query SQL',
-        description: "This repository contains two data-analysis projects created to demonstrate my skills in SQL and relational databases.",
-        link: 'https://github.com/roxyle/SQL',
-    },
     {
-        iconUrl: mulesoft,
-        id: "mulesoft",
-        theme: 'btn-back-yellow',
-        name: 'Payment Orchestration',
-        description: "Payment Processing System built with MuleSoft, implementing Compensation Patterns and Idempotency Handling for distributed transactions.",
-        link: 'https://github.com/roxyle/mulesoft-payment-orchestration'
-    },
-        {
         iconUrl: mulesoft,
         id: "mulesoft-ui",
         theme: 'btn-back-yellow',
-        name: 'Payment Orchestration - UI',
+        name: 'Payment Orchestration (Simulator)',
         description: "UI simulation for the Payment Processing System built with MuleSoft, implementing Compensation Patterns and Idempotency Handling for distributed transactions.",
         link: 'https://mulesoft-payment-ui-demo.vercel.app/'
     },
@@ -264,16 +248,32 @@ export const projects = [
         id: "rpa",
         theme: 'btn-back-red',
         name: 'RPA',
-        description: "RPA NICE Technology: Developed automation for bank employee to login, navigate, do some multi-criteria data filtering, and export to structured files. (I've worked on a NDA-safe side project).",
+        description: "RPA NICE Technology: Developed automation for bank employee to login, navigate, do some multi-criteria data filtering, and export to structured files. But I've worked on a NDA-safe side project: take a look at \"RPA (Simulation)\".",
         link: '',        
     },
         {
         iconUrl: rpa,
         id: "rpa",
         theme: 'btn-back-red',
-        name: 'RPA',
+        name: 'RPA (Simulation)',
         description: "RPA simulation built with Next.js and TypeScript. Replicates the logic of a real automation (NDA) - the robot navigates a mock enterprise portal, applies multi-criteria filtering, paginates results and exports a CSV.",
         link: 'https://rpa-simulator.vercel.app/dashboard',        
+    },
+    {
+        iconUrl: sqlicon,
+        id: "sql", 
+        theme: 'btn-back-green',
+        name: 'Query SQL (GitHub)',
+        description: "This repository contains two data-analysis projects created to demonstrate my skills in SQL and relational databases.",
+        link: 'https://github.com/roxyle/SQL',
+    },
+    {
+        iconUrl: mulesoft,
+        id: "mulesoft",
+        theme: 'btn-back-yellow',
+        name: 'Payment Orchestration (GitHub)',
+        description: "Payment Processing System built with MuleSoft, implementing Compensation Patterns and Idempotency Handling for distributed transactions.",
+        link: 'https://github.com/roxyle/mulesoft-payment-orchestration'
     },
     {
         iconUrl: reacttailwind,
@@ -295,7 +295,7 @@ export const projects = [
         iconUrl: phone,
         theme: 'btn-back-green',
         name: 'Call Simulator',
-        description: 'Personal Project (for fun) - A mobile-first web app that simulates an ongoing phone call. Built with Next.js 15 App Router and TypeScript, it features a call screen with a randomized timer, a fake home screen with customizable wallpapers, and persistent settings via localStorage. Interface and labels are in Italian.',
+        description: 'Personal Project (for fun) - A mobile-first web app that simulates an ongoing phone call. Built with Next.js 15 App Router and TypeScript, it features a call screen with a randomized timer, a fake home screen with customizable wallpapers, and persistent settings via localStorage.',
         link: 'https://call-simulator.vercel.app/'
     },
     // {

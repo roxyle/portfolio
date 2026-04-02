@@ -32,11 +32,11 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center m-4 gap-8 px-5 ">
+      <div className="flex flex-wrap justify-center items-stretch m-4 gap-8 px-5 ">
         {projects.map((project) => (
           <div
             className="outline outline-1 shadow-md shadow-slate-400 rounded-xl 
-          lg:w-[400px] w-full flex flex-col flex-wrap min-h-[300px] items-center m-8"
+          lg:w-[250px] w-full flex flex-col flex-wrap min-h-[300px] items-center m-8"
             key={project.name}
           >
             <div className="mt-6 block-container w-12 h-12 ">
@@ -51,11 +51,11 @@ export default function Projects() {
             </div>
 
             <div className="m-5 flex flex-col justify-between items-center flex-grow">
-              <h4 className="text-2xl font-poppins font-semibold">
+              <h4 className="text-2xl font-poppins font-semibold py-4 text-balance text-center">
                 {project.name}
               </h4>
               <p className="text-slate-500">{project.description}</p>
-              <div className="flex items-center justify-center gap-2 mx-2 font-poppins">
+              <div className="flex items-center justify-center gap-2 mx-2 font-poppins pt-4">
                 {project.link && project.link.trim() !== "" ? (
                   <>
                     <Link
