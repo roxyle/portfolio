@@ -13,6 +13,7 @@ import {
     mui,
     nextjs,
     pricewise,
+    earning,
     react,
     redux,
     snapgram,
@@ -87,7 +88,8 @@ export const skillsLang: Skill[] = [
         name: "DataWeave",
         type: "Backend",
         id: "dataWeave"
-    }
+    },
+    
 ];
 
 export const skillsFrameLab: Skill[] = [
@@ -234,6 +236,14 @@ export const projects = [
         name: 'Physiotherapy Clinic Website',
         description: "Professional website built with React and Next.js featuring responsive design, optimized user experience, and ongoing client maintenance.",
         link: 'https://www.fisioterapistacaserta.it/',
+    },
+    {
+        iconUrl: earning,
+        id:"earning",
+        theme: 'btn-back-pink',
+        name: 'From annual gross to net gross calculator',
+        description: "The prototype simulates the projection of annual net-earnings from annual gross earnings, showing in detail all deductions. Download the Design Document PDF (in Italian only) by clicking the button at the top of the page",
+        link: 'https://roxyle.github.io/calcolatore-da-RAL-a-netto/'
     },
     {
         iconUrl: mulesoft,
