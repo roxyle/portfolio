@@ -18,14 +18,19 @@ const About = () => {
               Whether it is an object, a drawing, a program, or a recipe,
               I derive great satisfaction from studying and understanding
               the foundational development process behind every single thing. 
-              Studying Java OOP has allowed me to better understand, analyze, and organize
-              the various processes of <strong>Robotic Automation</strong> assigned to me 
-              during my last experience at Bss-One (2022) for <strong>Engineering. </strong>
-              This includes every step, from <strong>creating workflows</strong> to <strong>testing the application. </strong>
-              When <strong>planning</strong> a project, I break down the work into steps, conceptual maps and workflows.
-              I find this "divide and conquer" strategy very effective,
-              not only for <strong>tasks prioritization and development process</strong>, 
-              but also for <strong>writing functional analysis and technical documentation.</strong>
+              I like understanding how systems work, and making that understanding{' '}
+  <strong>clear and transferable to others</strong>. My approach is to break
+  complex processes into smaller steps, map dependencies and edge cases, and
+  turn them into workflows that are easier to build, reason about, and
+  maintain. On the <strong>RPA projects for banking clients</strong> (2022),
+  this meant treating implementation and documentation as two parts of the
+  same delivery: I built the automations and documented the{' '}
+  <strong>AS IS process and TO BE solution</strong>, prerequisites, systems
+  involved, <strong>screen-level inputs and outputs</strong>, exception paths,
+  version history, and scope changes. The goal was not only to make the
+  automation work, but to leave behind a solution that another developer could{' '}
+  <strong>understand, troubleshoot, and maintain</strong> without having to
+  reconstruct the reasoning behind it.
             </p>  
         </div>
     </div>

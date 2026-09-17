@@ -27,7 +27,27 @@ export default function Projects() {
             frameworks, I aim to strengthen my problem-solving skills and apply
             theoretical knowledge to real-world scenarios. This collection is a
             snapshot of my continuous growth, and it evolves as I take on new
-            challenges and expand my technical expertise.
+            challenges and expand my technical expertise. Some projects are covered by an NDA,
+  so the work below makes that approach visible through public examples: an{' '}
+  <a
+    href='https://rpa-simulator.vercel.app/dashboard'
+    target='_blank'
+    rel='noopener noreferrer'
+    className='underline'
+  >
+    <strong>RPA simulator</strong>
+  </a>{' '} that reproduces the kind of dashboard
+  navigation, filtering, and record extraction I worked with, and a{' '}
+  <a
+    href='https://roxyle.github.io/calcolatore-da-RAL-a-netto/'
+    target='_blank'
+    rel='noopener noreferrer'
+    className='underline'
+  >
+    <strong>Gross-to-Net salary calculator</strong>
+  </a>{' '}
+  shipped with a full public <strong>design document</strong> covering
+  requirements, decisions, logic, and implementation.
           </p>
         </div>
       </div>
