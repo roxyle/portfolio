@@ -20,7 +20,7 @@ const Hero = () => {
                         </Link>
                                 <span className="relative">
                                         <span className="block absolute -inset-1 -skew-y-3 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500" aria-hidden="true"></span>
-                                        <span className="relative text-white">developer</span>
+                                        <span className="relative text-white">Technical Documentation Writer and AI Product Builder</span>
                                 </span>
                 </div>
                         <NavBar/>
