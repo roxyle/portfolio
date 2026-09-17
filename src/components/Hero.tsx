@@ -18,10 +18,18 @@ const Hero = () => {
                                         </h1>                                
                                 </div>
                         </Link>
-                                <span className="relative">
-                                        <span className="block absolute -inset-1 -skew-y-3 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500" aria-hidden="true"></span>
-                                        <span className="relative text-white">Technical Documentation Writer and AI Product Builder</span>
-                                </span>
+                                <span className="relative inline-block mt-2">
+    <span
+        className="block absolute -inset-x-4 -inset-y-2 rounded-md bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"
+        aria-hidden="true"
+    ></span>
+
+    <span className="relative text-white whitespace-nowrap">
+        Technical Documentation Writer
+        <span className="mx-3 opacity-70">•</span>
+        AI Product Builder
+    </span>
+</span>
                 </div>
                         <NavBar/>
         </div>
