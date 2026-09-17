@@ -28,7 +28,7 @@ const Intro = () => {
               </p>
                 <p className='text-left leading-relaxed text-base pb-6'>
                   I also design documentation and training material. I am currently building a{' '}
-                  <strong>144-hour corporate curriculum on AI for business processes</strong>:
+                  <strong>144-hour corporate presentation on AI for business processes</strong>:
                   practical use of <strong>AI tools</strong> such as ChatGPT, Claude, Copilot and
                   Gemini, among others; writing effective prompts for office work; reading and
                   mapping a business process before automating any part of it; drafting business
