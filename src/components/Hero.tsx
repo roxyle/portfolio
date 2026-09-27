@@ -24,10 +24,10 @@ const Hero = () => {
         aria-hidden="true"
     ></span>
 
-    <span className="relative text-white whitespace-nowrap">
-        Technical Documentation Writer
-        <span className="mx-3 opacity-70">•</span>
-        AI Product Builder
+    <span className="relative flex flex-col sm:flex-row items-center text-center text-white">
+        <span>Technical Documentation Writer</span>
+        <span className="hidden sm:inline mx-3 opacity-70">•</span>
+        <span>AI Product Builder</span>
     </span>
 </span>
                 </div>
