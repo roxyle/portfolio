@@ -1,4 +1,4 @@
-import { bss, cardmarket, alex, neting, fisio } from "../assets/images";
+import { bss, cardmarket, alex, neting, fisio, teach } from "../assets/images";
 import {
     contact,
     css,
@@ -38,7 +38,7 @@ import {
     sqllang,
     phone
 } from "../assets/icons";
-import { Skill } from "@/types";
+import { Skill, PortfolioProject, ProjectCategory } from "@/types";
 
 export const skillsLang: Skill[] = [
     {
@@ -141,13 +141,27 @@ export const otherSkills: Skill[] = [
 ]
 
 export const experiences = [
+    {
+        title: "Trainer - AI for Business Processes",
+        id: "gjordan",
+        company_name: "GJordan, \"English, AI & Employability\" Academy (remote)",
+        icon: teach,
+        iconBg: "#f6f6f6",
+        date: "2026 - present",
+        points: [
+            "Designed the 136 hour AI module: generative AI fundamentals, data security, business process mapping, prompt engineering, data analysis and reporting",
+            "Built hands-on exercises on fictional company data: comparing outputs of the same prompt, checking AI outputs containing errors and unsupported data, redacting documents with confidential data",
+            "Taught how to structure complex prompts with context, plus Markdown and markup basics",
+            "Built with AI an HTML/JavaScript attendance register tool: decimal hour calculation, Excel export, JSON backup",
+        ],
+    },
         {
         title: "Web Dev - React Next TypeScript",
         id: "fisio",
         company_name: "Studio Fisioterapia Bruno",
         icon: fisio,
         iconBg: "#f6f6f6",
-        date: "2024 - 2026",
+        date: "2024 - present",
         points: [
         "Designed and developed a fully responsive website using React, Next.js, and TypeScript",
         "Collaborated directly with the client to define structure, content, and branding",
@@ -228,21 +242,27 @@ export const socialLinks = [
     }
 ];
 
-export const projects = [
+export const projectCategories: ProjectCategory[] = ["Integration", "RPA", "Frontend", "Data"];
+
+export const projects: PortfolioProject[] = [
     {
         iconUrl: reacttailwind,
-        id: "reacttailwind", 
+        id: "physio-website",
         theme: 'btn-back-blue',
         name: 'Physiotherapy Clinic Website',
-        description: "Professional website built with React and Next.js featuring responsive design, optimized user experience, and ongoing client maintenance.",
+        category: 'Frontend',
+        tags: ['React', 'Next.js'],
+        description: "Live client website for a physiotherapy practice: responsive design, UX focus and ongoing maintenance.",
         link: 'https://www.fisioterapistacaserta.it/',
     },
     {
         iconUrl: earning,
-        id:"earning",
+        id: "gross-to-net",
         theme: 'btn-back-pink',
-        name: 'From annual gross to net gross calculator',
-        description: "The prototype simulates the projection of annual net-earnings from annual gross earnings, showing in detail all deductions. Download the Design Document PDF (in Italian only) by clicking the button at the top of the page",
+        name: 'Gross to Net salary calculator',
+        category: 'Frontend',
+        tags: ['JavaScript', 'Design doc'],
+        description: "Projects annual net salary from gross, showing every deduction. Design document PDF (Italian) downloadable from the page.",
         link: 'https://roxyle.github.io/calcolatore-da-RAL-a-netto/'
     },
     {
@@ -250,49 +270,82 @@ export const projects = [
         id: "mulesoft-ui",
         theme: 'btn-back-yellow',
         name: 'Payment Orchestration (Simulator)',
-        description: "UI simulation for the Payment Processing System built with MuleSoft, implementing Compensation Patterns and Idempotency Handling for distributed transactions.",
+        category: 'Integration',
+        tags: ['MuleSoft', 'Compensation', 'Idempotency'],
+        description: "UI simulation of a MuleSoft payment processing system, with compensation patterns and idempotency handling for distributed transactions.",
         link: 'https://mulesoft-payment-ui-demo.vercel.app/'
     },
     {
         iconUrl: rpa,
-        id: "rpa",
+        id: "rpa-nda",
         theme: 'btn-back-red',
         name: 'RPA',
-        description: "RPA NICE Technology: Developed automation for bank employee to login, navigate, do some multi-criteria data filtering, and export to structured files. But I've worked on a NDA-safe side project: take a look at \"RPA (Simulation)\".",
-        link: '',        
+        category: 'RPA',
+        tags: ['NICE', 'RPA'],
+        description: "Bank automation with NICE: login, navigation, multi criteria filtering and export to structured files. Under NDA, see \"RPA (Simulation)\".",
+        link: '',
     },
-        {
+    {
         iconUrl: rpa,
-        id: "rpa",
+        id: "rpa-simulation",
         theme: 'btn-back-red',
         name: 'RPA (Simulation)',
-        description: "RPA simulation built with Next.js and TypeScript. Replicates the logic of a real automation (NDA) - the robot navigates a mock enterprise portal, applies multi-criteria filtering, paginates results and exports a CSV.",
-        link: 'https://rpa-simulator.vercel.app/dashboard',        
+        category: 'RPA',
+        tags: ['Next.js', 'TypeScript'],
+        description: "Replicates the logic of a real automation under NDA: the robot navigates a mock portal, applies filters, paginates results and exports a CSV.",
+        link: 'https://rpa-simulator.vercel.app/dashboard',
     },
     {
         iconUrl: sqlicon,
-        id: "sql", 
-        theme: 'btn-back-green',
+        id: "sql",
+        theme: 'btn-back-blue',
         name: 'Query SQL (GitHub)',
-        description: "This repository contains two data-analysis projects created to demonstrate my skills in SQL and relational databases.",
+        category: 'Data',
+        tags: ['SQL'],
+        description: "Two data analysis projects showing SQL queries on relational databases.",
         link: 'https://github.com/roxyle/SQL',
     },
     {
         iconUrl: mulesoft,
-        id: "mulesoft",
+        id: "mulesoft-code",
         theme: 'btn-back-yellow',
         name: 'Payment Orchestration (GitHub)',
-        description: "Payment Processing System built with MuleSoft, implementing Compensation Patterns and Idempotency Handling for distributed transactions.",
+        category: 'Integration',
+        tags: ['MuleSoft', 'Source code'],
+        description: "Source code of the MuleSoft payment processing system: compensation patterns and idempotency handling for distributed transactions.",
         link: 'https://github.com/roxyle/mulesoft-payment-orchestration'
     },
     {
         iconUrl: reacttailwind,
-        id: "reacttailwind", 
+        id: "crypto-dashboard",
         theme: 'btn-back-pink',
         name: 'Crypto Market Dashboard',
-        description: "Interactive cryptocurrency dashboard built with React, Next.js, and Recharts. Features real-time API integration, responsive charts, and CSV export functionality. Developed through pair programming approach.",
+        category: 'Frontend',
+        tags: ['React', 'Next.js', 'Recharts'],
+        description: "Crypto dashboard with live API data, responsive charts and CSV export. Built in pair programming.",
         link: 'https://crypto-dash-wine-seven.vercel.app/',
     },
+    {
+        iconUrl: phone,
+        id: "call-simulator",
+        theme: 'btn-back-green',
+        name: 'Call Simulator',
+        category: 'Frontend',
+        tags: ['Next.js', 'TypeScript'],
+        description: "Just for fun: a mobile first app that fakes an ongoing phone call, with random timer, fake home screen and saved settings.",
+        link: 'https://call-simulator.vercel.app/'
+    },
+    {
+        iconUrl: pricewise,
+        id: "ecommerce-api",
+        theme: 'btn-back-blue',
+        name: 'Project Work: API fetch for fake E-commerce store',
+        category: 'Frontend',
+        tags: ['React', 'REST API'],
+        description: "Demo store fetching products from a remote API, with category navigation, product detail and error handling.",
+        link: 'https://ecommerce-qubica-store-sigma.vercel.app/',
+    },
+    // Disabled projects: add category and tags before re-enabling them
     // {
     //     iconUrl: bootstrap,
     //     id: "bootstrap",
@@ -301,13 +354,6 @@ export const projects = [
     //     description: 'Bootstrap Exercise: Interactive FAQ component built with Bootstrap Accordions, featuring smooth transitions, responsive design, and clean layout to deliver a user-friendly, expandable interface.',
     //     link: 'https://www.order42.info/accordion/',
     // },
-    {
-        iconUrl: phone,
-        theme: 'btn-back-green',
-        name: 'Call Simulator',
-        description: 'Personal Project (for fun) - A mobile-first web app that simulates an ongoing phone call. Built with Next.js 15 App Router and TypeScript, it features a call screen with a randomized timer, a fake home screen with customizable wallpapers, and persistent settings via localStorage.',
-        link: 'https://call-simulator.vercel.app/'
-    },
     // {
     //     iconUrl: datatables,
     //     id: "datatable",
@@ -331,13 +377,5 @@ export const projects = [
     //     name: 'Tris',
     //     description: 'JS exercise: TicTacToe or Tris. Create a fixed game grid where players X and O take turns. Once a cell is chosen by a player, it should no longer be available. When a player gets three in a row, all cells should become unselectable and the game should reset',
     //     link: 'https://www.order42.info/games/tris/',
-    // },
-
-    // {
-    //     iconUrl: pricewise,
-    //     theme: 'btn-back-green',
-    //     name: 'Project Work - caricamento in corso (il link non funziona ancora)',
-    //     description: 'Project Work per il corso Progettista Multimediale con l\'obiettivo di creare una Landing Page dinamica che abbia: una intestazione larga quanto il viewport; un menu di navigazione tra le pagine; un form di contatto; una sezione prodotti recuperati dall\'endpoint remoto dummyjson.com',
-    //     link: '',
     // },
 ];

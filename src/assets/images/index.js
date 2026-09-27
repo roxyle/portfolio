@@ -5,6 +5,7 @@ import neting from './neting.png'
 import cardmarket from './cardmarket.png'
 import logo from './logo.svg'
 import fisio from './fisio.png'
+import teach from './teach.svg'
 
 
 export {
@@ -15,4 +16,5 @@ export {
     cardmarket,
     logo, 
     fisio,
+    teach,
 }

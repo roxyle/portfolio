@@ -1,3 +1,5 @@
+import type { StaticImageData } from "next/image";
+
 export type Project = {
     id: string,
     title: string,
@@ -15,4 +17,15 @@ export interface Skill {
   type: string;
 }
 
+export type ProjectCategory = "Integration" | "RPA" | "Frontend" | "Data";
 
+export interface PortfolioProject {
+  id: string;
+  iconUrl: StaticImageData;
+  theme: string;
+  name: string;
+  category: ProjectCategory;
+  tags: string[];
+  description: string;
+  link: string;
+}

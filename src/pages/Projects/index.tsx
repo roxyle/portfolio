@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { projects } from "@/constants";
+import { projects, projectCategories } from "@/constants";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -52,53 +52,86 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-stretch m-4 gap-8 px-5 ">
-        {projects.map((project) => (
-          <div
-            className="outline outline-1 shadow-md shadow-slate-400 rounded-xl 
-          lg:w-[250px] w-full flex flex-col flex-wrap min-h-[300px] items-center m-8"
-            key={project.name}
-          >
-            <div className="mt-6 block-container w-12 h-12 ">
-              <div className={`btn-back rounded-xl ${project.theme}`} />
-              <div className="btn-front rounded-xl flex justify-center items-center">
-                <Image
-                  src={project.iconUrl}
-                  alt="Project Icon"
-                  className="w-1/2 h-1/2 object-contain"
-                />
-              </div>
-            </div>
+      <div className="max-w-4xl mx-auto px-4 md:px-8 py-10 flex flex-col gap-10">
+        {projectCategories.map((category) => {
+          const items = projects.filter((p) => p.category === category);
+          if (items.length === 0) return null;
 
-            <div className="m-5 flex flex-col justify-between items-center flex-grow">
-              <h4 className="text-2xl font-poppins font-semibold py-4 text-balance text-center">
-                {project.name}
-              </h4>
-              <p className="text-slate-500">{project.description}</p>
-              <div className="flex items-center justify-center gap-2 mx-2 font-poppins pt-4">
-                {project.link && project.link.trim() !== "" ? (
-                  <>
-                    <Link
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-semibold text-blue-600"
-                    >
-                      Take a Look
-                    </Link>
-                    <Image
-                      src={arrow}
-                      alt="arrow"
-                      className="w-4 h-4 object-contain"
-                    />
-                  </>
-                ) : (
-                  <span className="font-semibold text-blue-600">Sorry 🚫 NDA</span>
-                )}
-              </div>
-            </div>
-          </div>
-        ))}
+          return (
+            <section key={category} aria-labelledby={`category-${category}`}>
+              <h3
+                id={`category-${category}`}
+                className="font-poppins text-sm uppercase tracking-widest text-slate-500 mb-4"
+              >
+                {category}
+              </h3>
+
+              <ul className="flex flex-col gap-4">
+                {items.map((project) => (
+                  <li
+                    key={project.id}
+                    className="outline outline-1 outline-slate-600 rounded-xl p-5
+                    flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6"
+                  >
+                    <div className="block-container w-12 h-12 shrink-0 ml-1">
+                      <div className={`btn-back rounded-xl ${project.theme}`} />
+                      <div className="btn-front rounded-xl flex justify-center items-center">
+                        <Image
+                          src={project.iconUrl}
+                          alt=""
+                          className="w-1/2 h-1/2 object-contain"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="flex-1 min-w-0">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <h4 className="text-lg font-poppins font-semibold mr-1">
+                          {project.name}
+                        </h4>
+                        {project.tags.map((tag) => (
+                          <span
+                            key={tag}
+                            className="text-xs text-slate-300 border border-slate-700 rounded-md px-2 py-0.5"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                      <p className="text-slate-500 text-sm leading-relaxed mt-1">
+                        {project.description}
+                      </p>
+                    </div>
+
+                    <div className="shrink-0 flex items-center gap-2 font-poppins">
+                      {project.link && project.link.trim() !== "" ? (
+                        <>
+                          <Link
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-semibold text-blue-600 whitespace-nowrap"
+                          >
+                            Take a Look
+                          </Link>
+                          <Image
+                            src={arrow}
+                            alt=""
+                            className="w-4 h-4 object-contain"
+                          />
+                        </>
+                      ) : (
+                        <span className="font-semibold text-blue-600 whitespace-nowrap">
+                          Sorry 🚫 NDA
+                        </span>
+                      )}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        })}
       </div>
 
       <Footer />
